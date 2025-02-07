@@ -1,0 +1,46 @@
+css styling(style.css)
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - KetcoJet Logistics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="track.html">Track Shipment</a></li>
+                <li><a href="booking.html">Book a Shipment</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form>
+            <label>Name:</label>
+            <input type="text" required><br>
+            
+            <label>Email:</label>
+            <input type="email" required><br>
+            
+            <label>Message:</label>
+            <textarea required></textarea><br>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 KetcoJet Logistics</p>
+    </footer>
+</body>
+</html>
+
+
+
+
